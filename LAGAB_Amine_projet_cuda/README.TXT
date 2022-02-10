@@ -9,9 +9,6 @@ plateforme_compil => le projet visual basic studio qui malheureusement ne permet
                     pour exécuter un .cu se trouvant dans le dossier "effects" , je copie le code du programme et je le colle dans 
                     Conv1.cu se trouvant ici "plateforme_compil\Convolution" (je n'ai pas trouvé d'autres solutions).
 
-j'ai telecharger le make sur Windows pour essayer de crée le make  , en attendant , vous avez tout mes programmes .cu 
-concernant le rapport , je l'enverrai le 16 mai , j'en suis déjà à ma 20 eme page .
-
 pour le profiling , j'ai utiliser le chrono pour cpu et les events pour gpu : 
  je déroule mon programme 1000 fois , à chaque fois je récupère le temps d'exe que je mets dans un fichier .csv , à la fin j'ai 1000 lignes
 de temps d'exe que je traite sur R studio afin de générer la moyenne , le min , le max . j'ai opté pour cette démarche pour avoir un maximum
